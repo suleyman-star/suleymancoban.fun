@@ -1,4 +1,4 @@
-<img width="699" height="509" alt="image" src="https://github.com/user-attachments/assets/8dbfcdc5-0af6-43f0-b6ca-13e6f1045b37" /># 💼 Portfolyo İletişim Formu
+# 💼 Portfolyo İletişim Formu
 
 Bu proje, PHP ile hazırlanmış modern bir portfolyo sitesinde yer alan gelişmiş bir iletişim formu sistemidir. Kullanıcıdan alınan bilgiler hem e-posta yoluyla hem de Discord Webhook üzerinden iletilir. Aynı zamanda kullanıcının IP adresi ve konumu da otomatik olarak tespit edilerek kaydedilir.
 
