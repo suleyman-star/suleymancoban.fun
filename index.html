@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Süleyman ÇOBAN - Portfolyo</title>
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://suleymancoban.fun/" />
+  <meta property="og:title" content="Süleyman ÇOBAN - Front-End Developer & Designer" />
+  <meta property="og:description" content="Süleyman ÇOBAN'ın portfolyosu, projeleri ve iletişim bilgileri." />
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/46760081?v=4" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://suleymancoban.fun/" />
+  <meta property="twitter:title" content="Süleyman ÇOBAN - Front-End Developer & Designer" />
+  <meta property="twitter:description" content="Süleyman ÇOBAN'ın portfolyosu, projeleri ve iletişim bilgileri." />
+  <meta property="twitter:image" content="https://avatars.githubusercontent.com/u/46760081?v=4" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+    <div class="menu" id="menu">
+      <a href="#">Anasayfa</a>
+      <a href="#projects">Projeler</a>
+      <a href="#contact">İletişim</a>
+      <a href="https://instagram.com/35suleymann" target="_blank">Instagram</a>
+
+      <div class="github-wrapper">
+        <a href="#" class="dropdown">GitHub</a>
+        <div class="dropdown-menu">
+          <a href="https://github.com/suleyman-star" target="_blank">suleyman-star</a>
+          <a href="https://github.com/ewingdev" target="_blank">ewingdev</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <h1>Süleyman ÇOBAN</h1>
+    <p>Front-End Developer & Designer</p>
+  </header>
+
+  <section class="skills">
+    <h2>Yetenekler</h2>
+    <!-- Skill bar örnekleri -->
+    <div class="skill">
+      <span class="skill-name">HTML</span>
+      <div class="skill-bar"><div class="skill-level" data-level="60%"></div></div>
+    </div>
+    <div class="skill">
+      <span class="skill-name">CSS</span>
+      <div class="skill-bar"><div class="skill-level" data-level="55%"></div></div>
+    </div>
+    <div class="skill">
+      <span class="skill-name">JavaScript</span>
+      <div class="skill-bar"><div class="skill-level" data-level="45%"></div></div>
+    </div>
+    <div class="skill">
+      <span class="skill-name">3ds Max</span>
+      <div class="skill-bar"><div class="skill-level" data-level="70%"></div></div>
+    </div>
+    <div class="skill">
+      <span class="skill-name">Vue</span>
+      <div class="skill-bar"><div class="skill-level" data-level="30%"></div></div>
+    </div>
+    <div class="skill">
+      <span class="skill-name">EJS</span>
+      <div class="skill-bar"><div class="skill-level" data-level="35%"></div></div>
+    </div>
+    <div class="skill">
+      <span class="skill-name">Photoshop</span>
+      <div class="skill-bar"><div class="skill-level" data-level="70%"></div></div>
+    </div>
+    <div class="skill">
+      <span class="skill-name">PHP</span>
+      <div class="skill-bar"><div class="skill-level" data-level="30%"></div></div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2>Projeler</h2>
+    <div class="filter">
+      <label for="languageFilter">Dile göre filtrele:</label>
+      <select id="languageFilter" onchange="filterRepos()">
+        <option value="all">Tümü</option>
+      </select>
+    </div>
+    <div id="repo-list">
+      <p>Projeler yükleniyor...</p>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>İletişim</h2>
+    <form id="contactForm" method="POST" action="./phpmailer/send_mail.php">
+      <label for="name">İsim</label>
+      <input type="text" id="name" name="name" required />
+      <label for="email">E-posta</label>
+      <input type="email" id="email" name="email" required />
+      <label for="message">Mesaj</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <button type="submit">Gönder</button>
+    </form>
+    <p id="formStatus"></p>
+  </section>
+
+  <button id="cvDownloadBtn">CV İndir (PDF)</button>
+
+  <footer>
+    <p>&copy; 2025 Süleyman ÇOBAN. Tüm hakları saklıdır.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
