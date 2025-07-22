@@ -61,8 +61,7 @@ E-posta HTML formatında aşağıdaki bilgileri içerir:
 
 ## 📷 Ekran Görüntüsü
 
->  <img src="https://cdn.discordapp.com/attachments/1087817754041667595/1397215407475261600/image.png?ex=6880e9c0&is=687f9840&hm=23ac5d552fce8e0eeb462f25aa16a8bee89a338861e5fdbd4f6f7330910fd3cf&" alt="1"/>
->  <img src="https://cdn.discordapp.com/attachments/1087817754041667595/1397216746338779168/image.png?ex=6880eaff&is=687f997f&hm=c58f80a7c06b6d45f4b8da7f63b85c313480181f031a8dce418ef27ac0c99547&" alt="2"/>
+>  <img src="https://cdn.discordapp.com/attachments/1087817754041667595/1397217663393992704/suleymancoban.fun_.png?ex=6880ebda&is=687f9a5a&hm=1450a429cc6311940f656b58a58747bddbce91ec9f681aee3f7a8f239dfb241b&" alt="1"/>
 
 ## 🛡️ Güvenlik
 
