@@ -24,7 +24,7 @@ Bu proje, PHP ile hazırlanmış modern bir portfolyo sitesinde yer alan gelişm
 1. Projeyi klonlayın:
 
    ```bash
-   git clone https://github.com/kullaniciadi/proje-adi.git
+   git clone https://github.com/suleyman-star/suleymancoban.fun.git
    ```
 
 2. Gerekli dosyaları sunucunuza yükleyin.
