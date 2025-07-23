@@ -61,7 +61,7 @@ E-posta HTML formatında aşağıdaki bilgileri içerir:
 
 ## 📷 Ekran Görüntüsü
 
->  <img src="https://cdn.discordapp.com/attachments/1087817754041667595/1397217663393992704/suleymancoban.fun_.png?ex=6880ebda&is=687f9a5a&hm=1450a429cc6311940f656b58a58747bddbce91ec9f681aee3f7a8f239dfb241b&" alt="1"/>
+>  <img src="https://github.com/suleyman-star/suleymancoban.fun/blob/main/images/suleymancoban.fun_.png?raw=true" alt="1"/>
 
 ## 🛡️ Güvenlik
 
